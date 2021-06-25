@@ -21,7 +21,7 @@ include "header.php";
             </div>
             <table class="table table-success table-striped">
                 <tr>
-                    <th>No#</th>
+                    <th>ID</th>
                     <th>Status</th>
                     <th>Name</th>
                     <th>Description</th>
