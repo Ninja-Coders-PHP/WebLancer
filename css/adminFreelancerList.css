@@ -1,0 +1,16 @@
+.container{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    background-color: rgb(176, 228, 235);
+}
+
+.profile-pic img{
+    height: 150px;
+    width: 150px;
+    margin: 1em auto auto 2em;
+}
+
+.freelancer-details{
+    padding: 5px;
+}
+
+.border-b-1 {border-bottom: 1px solid rgba(162,162,162,.16);}
