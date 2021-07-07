@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <title>Freelancer Profile</title>
 
 <body>
@@ -38,12 +38,13 @@
             </div>
             <div class="col-md-2">
                 <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/>
+                <a href="DisputeManagement.php">View Disputes</a>
             </div>
         </div>
         <div class="row">
             <div class="col-md-4">
                 <div class="profile-work">
-                    <p>Projects Done:</p>
+                    <p><a href="freelancer-Dashboard-Project-list.php">Projects Done:</a></p>
                     <a href="">Building e-commerce website</a><br/>
                     <a href="">PHP project for school</a><br/>
                     <a href="">Financial system for accountant </a>
@@ -107,7 +108,8 @@
     </form>
 </div>
 
-<?php include "footer.php";?>
+<?php include "footer.php";
+include "bootstrapjsfile.php";?>
 
 </body>
 

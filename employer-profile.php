@@ -6,7 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Employer Profile</title>
 
 <body>
@@ -38,6 +38,7 @@
             </div>
             <div class="col-md-2">
                 <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/>
+                <!-- <a href="Privatemessagewithfreelancer.php">Message Freelancer</a> -->
             </div>
         </div>
         <div class="row">
@@ -99,7 +100,8 @@
     </form>
 </div>
 
-<?php include "footer.php";?>
+<?php include "footer.php";
+include "bootstrapjsfile.php";?>
 
 </body>
 

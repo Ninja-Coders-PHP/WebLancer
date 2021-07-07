@@ -1,7 +1,9 @@
 body{
     font-family: 'Open Sans', sans-serif;
     margin: 0px;
+    /* background-color:rgb(209, 209, 183); */
     background-image:url(../images/bg1.jpg);
+    padding:0px;
 }
 a{
     text-decoration: none;
@@ -87,8 +89,6 @@ footer{
 }
 .footer-logo{
     text-align: center;
-    padding-top:1.3em;
-    padding-left: 1em;
 }
 
 
@@ -241,4 +241,10 @@ input[type=radio],input[type=checkbox]{
 .submit-Button:hover{
     color:  white;
 
+}
+
+@media (max-width:768px){
+    .footer-contact{
+        margin-top:0px;
+    }
 }
